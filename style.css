@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+@keyframes sizeup {
+    0% {
+        transform: scale(100%);
+    }
+
+    50% {
+        transform: scale(105%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(300deg,#2c181e,#050505);
+    background-size: 120% 120%;
+    animation: gradient-animation 4s ease infinite;
+}
+
+.banner h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 45px;
+    padding-top: 55px;
+}
+
+.main {
+    width: 1000px;
+    padding-top: 160px;
+    margin: auto;
+}
+
+.main h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
+    padding-bottom: 30px;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main h3 {
+    font-family: "Roboto Mono", serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-family: "Roboto Mono", serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.nav {
+    float: right;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    padding-right: 64px;
+    position: relative;
+    transform: translateY(-55px);
+}
+
+.nav span {
+    padding-left: 35px;
+}
+
+.nav span:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.title h3:hover {
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.resumebttn {
+    margin-left: 425px;
+    font-size: 12px;
+    background: 0;
+    border: 1px white solid;
+    border-radius: 8px;
+    font-family: "Roboto Mono", serif;
+    font-weight: 400;
+    padding: 15px;
+    width: 150px;
+}
+
+.resumebttn:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.banner {
+    height: 150px;
+}
+
+.footer {
+    height: 142px;
+    margin: auto;
+    font-family: "Roboto Mono", serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 142px;
+}
+
+.icon {
+    width: auto;
+    padding-top: 20px;
+    height: 32px;
+}
+
+.footer img:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.myphoto {
+    width: auto;
+    height: 300px;
+    margin: auto;
+    border-radius: 100%;
+    margin-left: 350px;
+    border: 0;
+    animation: sizeup 2s ease infinite;
+    border: 1px white solid;
+} 
+
+.main h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    padding: 20px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.main h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.main li {
+    font-family: "Roboto Mono", serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 18px;
+    margin-bottom: 25px;
+    padding-left: 23px; 
+}
+
+.main p {
+    font-family: "Roboto Mono", serif;
+    font-weight: 200;
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 24px;
+    color:rgb(159, 159, 159);
+}
+
+.main table {
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    vertical-align: middle;
+    /* border: white 1px solid; */
+}
+
+.main td {
+    padding-right: 10px;  
+    padding-bottom: 10px;     
+}
+
+.subtitle img {
+    width: auto;
+    height: 20px;
+}
+
+.subtitle a:hover{
+    opacity: 60%;
+}
+
+.druga td{
+    width: 600px;
+}
+
+.mapa {
+    width: fit-content;
+    margin: auto;
+}
